@@ -97,3 +97,17 @@
   content: '*';
   margin-left: 4px;
 }
+.el-checkbox__inner {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border-radius: 0;
+  border-width: 2px;
+}
+.el-checkbox__inner:after {
+  border-width: 2px;
+  top: 0px;
+  height: 10px;
+  width: 5px;
+  left: 5px;
+}
